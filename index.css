@@ -84,7 +84,7 @@ body {
 }
 
 .hero-btn {
-    display: inline-block;
+    display: flex;
     background: #111;
     color: white;
     text-decoration: none;
@@ -109,7 +109,7 @@ body {
 
 /* Cards */
 .cards {
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
     padding: 60px 8%;
