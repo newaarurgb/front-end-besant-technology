@@ -3,31 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Counter App</title>
-
+    <title>Aaru's Website</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
 
-    <div class="container">
+<header>
+    <nav class="navbar">
+        <h2 class="logo">AARU</h2>
 
-        <h1>COUNT</h1>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
 
-        <h2 id="count">0</h2>
+        <button class="btn">Login</button>
+    </nav>
 
-        <div class="buttons">
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Build Amazing Websites</h1>
+            <p>
+                Learn HTML, CSS and Responsive Design by creating
+                beautiful modern websites that work on desktop,
+                tablet and mobile devices.
+            </p>
 
-            <button id="increase">Increase</button>
-
-            <button id="decrease">Decrease</button>
-
+            <a href="#" class="hero-btn">Get Started</a>
         </div>
 
-        <button id="reset">Reset</button>
+        <div class="hero-image">
+            <img src="index.png" alt="">
+        </div>
+    </section>
+</header>
 
+<section class="cards">
+
+    <div class="card">
+        <h2>HTML</h2>
+        <p>Create the structure of your website.</p>
     </div>
 
-<script src="index.js"></script>
+    <div class="card">
+        <h2>CSS</h2>
+        <p>Style your website beautifully.</p>
+    </div>
+
+    <div class="card">
+        <h2>Responsive</h2>
+        <p>Looks perfect on every device.</p>
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 AARU | Aaru's Website</p>
+</footer>
 
 </body>
 </html>
