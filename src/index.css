@@ -6,116 +6,113 @@
 }
 
 body{
-    background:#f5f5f5;
-}
 
-/* Navbar */
+    height:100vh;
 
-.navbar{
     display:flex;
-    justify-content:space-between;
+    justify-content:center;
     align-items:center;
-    padding:20px 8%;
-    background:#111;
-    color:white;
+
+    background:linear-gradient(135deg,#7b0000,#d3005a,#ff4da6);
+
 }
 
-.logo{
-    font-size:30px;
-}
+.container{
 
-.nav-links{
-    display:flex;
-    list-style:none;
-    gap:30px;
-}
+    width:320px;
 
-.nav-links a{
-    text-decoration:none;
-    color:white;
-}
+    background:slateblue;
 
-.btn{
-    padding:10px 20px;
-    border:none;
-    background:#00b894;
-    color:white;
-    border-radius:5px;
-    cursor:pointer;
-}
+    text-align:center;
 
-/* Hero */
-
-.hero{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:70px 8%;
-    gap:50px;
-}
-
-.hero-text{
-    flex:1;
-}
-
-.hero-text h1{
-    font-size:55px;
-    margin-bottom:20px;
-}
-
-.hero-text p{
-    font-size:18px;
-    color:#555;
-    margin-bottom:30px;
-    line-height:1.7;
-}
-
-.hero-btn{
-    display:inline-block;
-    background:#111;
-    color:white;
-    text-decoration:none;
-    padding:15px 30px;
-    border-radius:6px;
-}
-
-.hero-image{
-    flex:1;
-}
-
-.hero-image img{
-    width:100%;
-    border-radius:15px;
-}
-
-/* Cards */
-
-.cards{
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:25px;
-    padding:60px 8%;
-}
-
-.card{
-    background:white;
     padding:35px;
-    border-radius:10px;
-    text-align:center;
-    box-shadow:0 5px 20px rgba(0,0,0,.1);
+
+    border-radius:8px;
+
+    box-shadow:0px 10px 20px rgba(0,0,0,0.3);
+
 }
 
-.card h2{
+.container h1{
+
+    color:#222;
+
+    margin-bottom:20px;
+
+}
+
+.container h2{
+
+    font-size:45px;
+
+    color:#1d3ea8;
+
+    margin-bottom:30px;
+
+}
+
+.buttons{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:10px;
+
     margin-bottom:15px;
+
 }
 
-/* Footer */
+button{
 
-footer{
-    background:#111;
+    border:none;
+
+    padding:10px 18px;
+
+    cursor:pointer;
+
+    border-radius:3px;
+
+    font-size:14px;
+
+    transition:.3s;
+
+}
+
+#increase{
+
+    background:#dff2d8;
+
+}
+
+#increase:hover{
+
+    background:#bfe9b3;
+
+}
+
+#decrease{
+
+    background:#2196f3;
+
     color:white;
-    text-align:center;
-    padding:20px;
+
 }
 
+#decrease:hover{
 
+    background:#0d7ad6;
+
+}
+
+#reset{
+
+    background:#ffe600;
+
+}
+
+#reset:hover{
+
+    background:#ffd000;
+
+}
