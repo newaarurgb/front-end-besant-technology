@@ -9,7 +9,7 @@ html{
 }
 body{
     margin:0;
-    background:#080808;
+    background:#0b1120;
     color:#fff;
     overflow-x:hidden;
     position:relative;
@@ -24,7 +24,7 @@ body::before{
     height:200%;
 
     background:
-    radial-gradient(circle,#ff008088 2px,transparent 2px);
+    radial-gradient(circle,#38bdf8 2px,transparent 2px);
 
     background-size:80px 80px;
 
@@ -39,9 +39,9 @@ body::after{
     inset:0;
 
     background:
-    radial-gradient(circle at 20% 30%,rgba(255,0,79,.35),transparent 25%),
-    radial-gradient(circle at 80% 20%,rgba(255,0,120,.25),transparent 25%),
-    radial-gradient(circle at 60% 80%,rgba(255,0,180,.25),transparent 30%);
+    radial-gradient(circle at 20% 30%,rgba(56,189,248,.25),transparent 25%),
+    radial-gradient(circle at 80% 20%,rgba(14,165,233,.20),transparent 25%),
+    radial-gradient(circle at 60% 80%,rgba(37,99,235,.18),transparent 30%);
 
     filter:blur(120px);
 
@@ -74,18 +74,18 @@ body::after{
     height:420px;
     object-fit:cover;
     border-radius:50%;
-    border:5px solid #ff0066;
+    border:5px solid #38bdf8;
     box-shadow:
-        0 0 20px #ff0066,
-        0 0 50px rgba(255,0,102,.5);
+        0 0 20px #38bdf8,
+        0 0 50px rgba(14,165,235,.20);
     transition:.4s;
 }
 
 .hero-image img:hover{
     transform:scale(1.05);
     box-shadow:
-        0 0 35px #ff0066,
-        0 0 70px rgba(255,0,102,.7);
+        0 0 35px #38bdf8,
+        0 0 70px rgba(14,165,235,.20);
 }
 
 
@@ -123,14 +123,14 @@ nav{
     position:absolute;
     top:0;
     left:0;
-    color:#ff0080;
+    color:#0ea5e9;
     filter:blur(10px);
     opacity:.8;
     z-index:-1;
 }
 
 .logo:hover{
-    color:#ff0080;
+    color:#0ea5e9;
     transform:scale(1.08);
 }
 
@@ -153,7 +153,7 @@ nav ul li a::after{
     content: '';
     width: 0;
     height: 3px;
-    background: #ff004f;
+    background: #38bdf8;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -176,7 +176,7 @@ nav ul li a:hover::after{
 
 }
 .header-text h1 span{
-    color: #ff004f;
+    color: #38bdf8;
 
 }
 
@@ -244,7 +244,7 @@ nav ul li a:hover::after{
     content: '';
     width: 0;
     height: 3px;
-    background: #ff004f;
+    background: #38bdf8;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -261,7 +261,7 @@ nav ul li a:hover::after{
 }
 
 .tab-contents ul li span{
-    color: #ff004f;
+    color: #38bdf8;
     font-size: 14px;
 }
 
@@ -313,7 +313,7 @@ nav ul li a:hover::after{
 }
 
 .services-list div:hover{
-    background:#ff004f;
+    background:#38bdf8;
     transform: translateY(-10px);
 }
 
@@ -344,7 +344,7 @@ nav ul li a:hover::after{
 .layer{
     width: 100%;
     height: 0%;
-    background: linear-gradient(rgba(0,0,0,0.6), #ff004f);
+    background: linear-gradient(rgba(0,0,0,0.6), #38bdf8);
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -380,7 +380,7 @@ nav ul li a:hover::after{
 
 .layer a{
     margin-top: 20px;
-    color:#ff004f;
+    color:#38bdf8;
     text-decoration: none;
     font-size: 18px;
     line-height: 60px;
@@ -404,7 +404,7 @@ nav ul li a:hover::after{
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid #ff004f;
+    border: 1px solid #38bdf8;
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
@@ -413,7 +413,7 @@ nav ul li a:hover::after{
 }
 
 .btn:hover{
-    background:#ff004f;
+    background:#38bdf8;
 }
 
 .contact-left{
@@ -432,13 +432,13 @@ nav ul li a:hover::after{
 }
 
 .contact-left p i{
-    color: #ff004f;
+    color: #38bdf8;
     margin-right: 15px;
     font-size: 25px;
 }
 
 .contact-left p i{
-    color: #ff004f !important;
+    color: #38bdf8 !important;
     font-size: 25px;
     margin-right: 15px;
 }
@@ -456,13 +456,13 @@ nav ul li a:hover::after{
 }
 
 .social-icons a:hover{
-    color:#ff004f;
+    color:#38bdf8;
     transform: translateY(-5px);
 }
 
 .btn.btn2{
     display: inline-block;
-    background:#ff004f;
+    background:#38bdf8;
 
 }
 
@@ -500,7 +500,7 @@ form.btn2{
 }
 
 .copyright i{
-    color: #ff004f !important;
+    color: #38bdf8 !important;
 }
 
 /* Hide icons on desktop */
@@ -520,13 +520,13 @@ nav .fa-solid{
 
 .quote-card:hover{
     transform: translateY(-8px);
-    border-color: #ff004f;
-    box-shadow: 0 10px 25px rgba(255,0,79,.25);
+    border-color: #38bdf8;
+    box-shadow: 0 10px 25px rgba(56,189,248,.25);
 }
 
 .quote-icon{
     font-size: 35px;
-    color: #ff004f;
+    color: #38bdf8;
     margin-bottom: 15px;
 }
 
@@ -612,7 +612,7 @@ nav ul .fa-xmark{
 
 .animated-name{
     display: inline-block;
-    background: linear-gradient(90deg,#ff004f,#ff8c00,#00d4ff,#ff004f);
+    background: linear-gradient(90deg,#38bdf8,darkblue,#00d4ff,#38bdf8);
     background-size: 300%;
     -webkit-backgroundclip: text;
     -webkit-text-fill-color: transparent;
@@ -642,12 +642,12 @@ nav ul .fa-xmark{
 }
 
 .typing{
-    color: #ff004f;
+    color: #38bdf8;
     display: inline-block;
     white-space: nowrap;
     overflow: hidden;
     vertical-align: bottom;
-    border-right: 3px solid #ff004f;
+    border-right: 3px solid #38bdf8;
     animation: typing 2s steps(8) infinite,
                blink .8s step-end infinite;
 }
@@ -731,18 +731,19 @@ nav ul .fa-xmark{
 
     from{
         text-shadow:
-        0 0 5px #ff0080,
-        0 0 10px #ff0080,
-        0 0 20px #ff0080,
-        0 0 40px #ff0080;
+        0 0 5px #0ea5e9,
+        0 0 10px #0ea5e9,
+        0 0 20px #0ea5e9,
+        0 0 40px #0ea5e9;
     }
 
     to{
         text-shadow:
-        0 0 10px #ff0080,
-        0 0 20px #ff0080,
-        0 0 40px #ff0080,
-        0 0 80px #ff0080;
+        0 0 10px #0ea5e9,
+        0 0 20px #0ea5e9,
+        0 0 40px #0ea5e9,
+        0 0 80px #0ea5e9;
     }
 
 }
+
